@@ -10,7 +10,7 @@ def topip():
             else:
                 mydict[ip] += 1
     sorted_a = sorted(mydict, key=mydict.get, reverse=True)[:20]
-    return orted_a
+    return sorted_a
 
 
 print(topip())
